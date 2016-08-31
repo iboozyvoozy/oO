@@ -79,7 +79,7 @@
   "devDependencies": {
     "babel-plugin-__coverage__": "11.0.0",
     "babel-register": "6.14.0",
-    "browser-sync": "2.14.0",
+    "browser-sync": "2.14.2",
     "coveralls": "2.11.12",
     "istanbul": "0.4.5",
     "jasmine": "2.5.0",
