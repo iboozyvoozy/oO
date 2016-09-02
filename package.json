@@ -33,7 +33,7 @@
   "dependencies": {
     "angular": "1.5.8",
     "angular-mocks": "1.5.8",
-    "autoprefixer": "6.4.0",
+    "autoprefixer": "6.4.1",
     "babel-core": "6.14.0",
     "babel-eslint": "6.1.2",
     "babel-loader": "6.2.5",
