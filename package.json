@@ -42,7 +42,7 @@
     "codeclimate-test-reporter": "0.3.3",
     "commitizen": "2.8.6",
     "compression": "1.6.2",
-    "css-loader": "0.24.0",
+    "css-loader": "0.25.0",
     "cz-conventional-changelog": "1.2.0",
     "debug": "2.2.0",
     "dotenv": "2.0.0",
