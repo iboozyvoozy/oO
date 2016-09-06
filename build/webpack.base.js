@@ -5,7 +5,6 @@ const {CONFIG, PATHS, utils} = require('./config');
 const HtmlPlugin = require('html-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
 const EnvPlugin = webpack.EnvironmentPlugin;
-const ChunkPlugin = webpack.optimize.CommonsChunkPlugin;
 const autoprefixer = require('autoprefixer');
 
 const {PUBLIC_PATH, ASSETS_LIMIT, CLIENT_ENV_VARS} = CONFIG;
@@ -71,9 +70,6 @@ const cfg = {
 		new HtmlPlugin({
 			filename: 'index.html',
 			template: 'pages/index.pug'
-		}),
-		new ChunkPlugin({
-			name: 'vendor'
 		}),
 		new EnvPlugin(CLIENT_ENV_VARS)
 	]
