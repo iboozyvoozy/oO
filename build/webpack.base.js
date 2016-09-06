@@ -43,6 +43,9 @@ const cfg = {
 			loader: 'ng-annotate!babel!eslint',
 			include: [SRC, TEST]
 		}, {
+			test: /\.json$/,
+			loader: 'json',
+		}, {
 			test: /\.pug$/,
 			loader: 'pug?pretty=true',
 			include: [PAGES]
