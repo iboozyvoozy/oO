@@ -1,7 +1,7 @@
 const baseConfig = require('./webpack.base');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
-const {PATHS} = require('./build');
+const {PATHS} = require('./config');
 
 const ExtractPlugin = require('extract-text-webpack-plugin');
 const NoErrorsPlugin = webpack.NoErrorsPlugin;

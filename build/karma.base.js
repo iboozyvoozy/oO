@@ -1,6 +1,6 @@
 process.env.BABEL_ENV = 'test';
 
-const {CONFIG, PATHS, utils} = require('./build');
+const {CONFIG, PATHS, utils} = require('./config');
 const webpackConfig = require('./webpack.test');
 
 const {KARMA_PORT} = CONFIG;

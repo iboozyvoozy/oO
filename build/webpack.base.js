@@ -1,6 +1,6 @@
 const requireEnv = require('require-environment-variables');
 const webpack = require('webpack');
-const {CONFIG, PATHS, utils} = require('./build');
+const {CONFIG, PATHS, utils} = require('./config');
 
 const HtmlPlugin = require('html-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');

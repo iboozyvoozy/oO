@@ -1,4 +1,4 @@
-const {CONFIG, PATHS} = require('./build');
+const {CONFIG, PATHS} = require('./config');
 
 const {APP_PORT, DEV_PORT} = CONFIG;
 const {DIST} = PATHS;

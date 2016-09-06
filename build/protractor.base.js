@@ -1,5 +1,5 @@
 const babelRegister = require('babel-register');
-const {CONFIG, utils} = require('./build');
+const {CONFIG, utils} = require('./config');
 
 const {WD_HUB_URL, WD_HUB_BASE} = CONFIG;
 

@@ -1,7 +1,7 @@
 const fallback = require('express-history-api-fallback');
 const express = require('express');
 const gzip = require('compression');
-const {CONFIG, PATHS} = require('./config/build');
+const {CONFIG, PATHS} = require('./build/config');
 
 const {APP_PORT, PUBLIC_PATH} = CONFIG;
 const {REPORTS, DIST} = PATHS;

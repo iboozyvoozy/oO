@@ -1,18 +1,13 @@
 const baseConfig = require('./webpack.base');
 const merge = require('webpack-merge');
-const {PATHS} = require('./build');
+const {PATHS} = require('./config');
 
 const {SRC} = PATHS;
 
 const cfg = {
-	watch: true,
-	cache: true,
-	debug: true,
+	entry: {},
+	plugins: [],
 	devtool: 'inline-source-map',
-	output: {
-		pathinfo: true,
-		filename: '[name].js'
-	},
 	module: {
 		loaders: [{
 			test: /\.styl$/,
