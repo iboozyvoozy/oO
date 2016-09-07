@@ -83,7 +83,7 @@
     "browser-sync": "2.15.0",
     "coveralls": "2.11.12",
     "istanbul": "0.4.5",
-    "jasmine": "2.5.0",
+    "jasmine": "2.5.1",
     "json-server": "0.8.19",
     "karma": "1.2.0",
     "karma-chrome-launcher": "2.0.0",
