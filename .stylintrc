@@ -1,3 +1,4 @@
 {
-  "brackets": "never"
+  "brackets": "never",
+  "semicolons": "never"
 }

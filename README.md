@@ -1,20 +1,25 @@
 # Frontend boilerplate 💩
 
-[![NPM version][npm-img]][npm-url] [![Dependency Status][dm-img]][dm-url] [![devDependency Status][dm-dev-img]][dm-dev-url]
+[![NPM version][npm-img]][npm-url] [![Build Status][travis-img]][travis-url]
 
-[![Build Status][travis-img]][travis-url] [![Test Coverage][coverage-img]][coverage-url] [![Code Climate][climate-img]][climate-url] [![Code Climate Issues][climate-issues-img]][climate-issues-url]
+[![Test Coverage][coverage-img]][coverage-url] [![Code Climate][climate-img]][climate-url] [![Code Climate Issues][climate-issues-img]][climate-issues-url]
+
+[![BitHound][bh-img]][bh-url] [![Dependency Status][dm-img]][dm-url] [![devDependency Status][dm-dev-img]][dm-dev-url]
 
 [![Semantic Release][semantic-img]][semantic-url]
 
 [npm-img]: https://badge.fury.io/js/febp.svg
 [npm-url]: https://www.npmjs.com/package/febp
+[travis-img]: https://travis-ci.org/iboozyvoozy/febp.svg
+[travis-url]: https://travis-ci.org/iboozyvoozy/febp
+
+[bh-img]: https://www.bithound.io/github/iboozyvoozy/febp/badges/score.svg
+[bh-url]: https://www.bithound.io/github/iboozyvoozy/febp
 [dm-img]: https://david-dm.org/iboozyvoozy/febp.svg
 [dm-url]: https://david-dm.org/iboozyvoozy/febp
 [dm-dev-img]: https://david-dm.org/iboozyvoozy/febp/dev-status.svg
 [dm-dev-url]: https://david-dm.org/iboozyvoozy/febp#info=devDependencies
 
-[travis-img]: https://travis-ci.org/iboozyvoozy/febp.svg
-[travis-url]: https://travis-ci.org/iboozyvoozy/febp
 [coverage-img]: https://codeclimate.com/github/iboozyvoozy/febp/badges/coverage.svg
 [coverage-url]: https://codeclimate.com/github/iboozyvoozy/febp/coverage
 [climate-img]: https://codeclimate.com/github/iboozyvoozy/febp/badges/gpa.svg

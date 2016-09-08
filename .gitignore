@@ -7,8 +7,8 @@
 
 dist/
 docs/
-typings/
 reports/
+typings/
 coverage/
 node_modules/
 bower_components/

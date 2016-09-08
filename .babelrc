@@ -5,8 +5,8 @@
       "plugins": [
         ["__coverage__", {
           "ignore": [
-            "*.+(unit|spec|mock|stub).*",
-            "test/**/*"
+            "test/**/*",
+            "*.+(unit|spec|mock|stub).*"
 		  ]
 		}]
       ]

@@ -8,8 +8,8 @@
   },
   "globals": {
     "angular": true,
-    "expect": true,
-    "inject": true
+    "inject": true,
+    "expect": true
   },
   "rules": {
     "no-console": 0,
