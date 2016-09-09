@@ -23,15 +23,10 @@ const cfg = {
 		publicPath: PUBLIC_PATH
 	},
 	resolve: {
-		root: [
-			ROOT,
-			utils.src('app'),
-		],
 		extensions: [
 			'',
 			'.ts',
-			'.js',
-			'.json'
+			'.js'
 		],
 		alias: {
 			assets: utils.src('assets')
@@ -48,7 +43,7 @@ const cfg = {
 			include: [SRC, TEST]
 		}, {
 			test: /\.json$/,
-			loader: 'json',
+			loader: 'json'
 		}, {
 			test: /\.pug$/,
 			loader: 'pug?pretty=true',

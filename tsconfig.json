@@ -16,7 +16,7 @@
   ],
   "files": [
     "./src/app/**/*.ts",
-    "./src/typings.d.ts",
+    "./src/custom-typings.d.ts",
     "./typings/index.d.ts"
   ]
 }
