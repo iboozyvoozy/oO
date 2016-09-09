@@ -1,11 +1,12 @@
 const requireEnv = require('require-environment-variables');
+const autoprefixer = require('autoprefixer');
 const webpack = require('webpack');
 const {CONFIG, PATHS, utils} = require('./config');
 
+const EnvPlugin = webpack.EnvironmentPlugin;
 const HtmlPlugin = require('html-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
-const EnvPlugin = webpack.EnvironmentPlugin;
-const autoprefixer = require('autoprefixer');
+const {ForkCheckerPlugin} = require('awesome-typescript-loader');
 
 const {PUBLIC_PATH, ASSETS_LIMIT, CLIENT_ENV_VARS} = CONFIG;
 const {ROOT, SRC, DIST, PAGES, TEST} = PATHS;
@@ -26,7 +27,8 @@ const cfg = {
 		extensions: [
 			'',
 			'.ts',
-			'.js'
+			'.js',
+			'.json'
 		],
 		alias: {
 			assets: utils.src('assets')
@@ -71,6 +73,7 @@ const cfg = {
 			filename: 'index.html',
 			template: 'pages/index.pug'
 		}),
+		new ForkCheckerPlugin(),
 		new EnvPlugin(CLIENT_ENV_VARS)
 	]
 };
