@@ -29,6 +29,7 @@ const cfg = {
 		],
 		extensions: [
 			'',
+			'.ts',
 			'.js',
 			'.json'
 		],
@@ -38,6 +39,10 @@ const cfg = {
 	},
 	module: {
 		loaders: [{
+			test: /\.ts$/,
+			loader: 'ng-annotate!awesome-typescript!tslint',
+			include: [SRC, TEST]
+		}, {
 			test: /\.js$/,
 			loader: 'ng-annotate!babel!eslint',
 			include: [SRC, TEST]

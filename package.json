@@ -7,7 +7,7 @@
     "url": "https://github.com/iboozyvoozy/febp.git"
   },
   "scripts": {
-    "postinstall": "webdriver-manager update",
+    "postinstall": "typings install && webdriver-manager update",
     "start": "npm run build",
     "test": "npm-run-all test:unit coverage:*",
     "test:e2e": "protractor build/protractor.prod.js",
@@ -34,6 +34,7 @@
     "angular": "1.5.8",
     "angular-mocks": "1.5.8",
     "autoprefixer": "6.4.1",
+    "awesome-typescript-loader": "1",
     "babel-core": "6.14.0",
     "babel-eslint": "6.1.2",
     "babel-loader": "6.2.5",
@@ -72,6 +73,10 @@
     "stylint-loader": "1.0.0",
     "stylus": "0.54.5",
     "stylus-loader": "2.3.1",
+    "tslint": "3.15.1",
+    "tslint-loader": "2.1.5",
+    "typescript": "1.8.10",
+    "typings": "1.3.3",
     "url-loader": "0.5.7",
     "webpack": "1.13.2",
     "webpack-merge": "0.14.1",
@@ -109,6 +114,9 @@
     "frontend",
     "angular",
     "webpack",
-    "babel"
+    "babel",
+    "karma",
+    "protractor",
+    "typescript"
   ]
 }

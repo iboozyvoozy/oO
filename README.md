@@ -33,6 +33,8 @@
 
 - `babel (preset-es2015)`
 - `eslint (babel-parser)`
+- `typescript`
+- `tslint`
 - `ng-annotate`
 
 Usage example:
