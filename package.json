@@ -99,7 +99,7 @@
     "karma-mocha-reporter": "2.1.0",
     "karma-phantomjs-launcher": "1.0.2",
     "karma-webpack": "1.8.0",
-    "protractor": "4.0.5"
+    "protractor": "4.0.8"
   },
   "config": {
     "commitizen": {
