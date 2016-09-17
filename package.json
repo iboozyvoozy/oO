@@ -86,7 +86,7 @@
     "babel-plugin-__coverage__": "11.0.0",
     "babel-register": "6.14.0",
     "browser-sync": "2.16.0",
-    "coveralls": "2.11.12",
+    "coveralls": "2.11.13",
     "istanbul": "0.4.5",
     "jasmine": "2.5.1",
     "json-server": "0.8.21",
