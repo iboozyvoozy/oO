@@ -11,8 +11,11 @@ exports.CONFIG = {
 	WD_HUB_URL: envVar('WD_HUB_URL', 'http://localhost:4444/wd/hub'),
 	WD_HUB_BASE: envVar('WD_HUB_BASE', 'http://localhost:9000'),
 	PUBLIC_PATH: envVar('PUBLIC_PATH', '/'),
-	ASSETS_LIMIT: 1024 * 10, // 10KB
-	CLIENT_ENV_VARS: []
+	CLIENT_ENV_VARS: [],
+	JS_TEMPLATE: '[name]-[chunkhash].js',
+	CSS_TEMPLATE: '[name]-[contenthash].css',
+	ASSET_TEMPLATE: '[name]-[hash].[ext]',
+	ASSET_LIMIT_KB: 10
 };
 
 exports.PATHS = {

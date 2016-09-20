@@ -1,7 +1,7 @@
 const baseConfig = require('./webpack.base');
 const webpack = require('webpack');
 const merge = require('webpack-merge');
-const {PATHS} = require('./config');
+const {CONFIG, PATHS} = require('./config');
 
 const ExtractPlugin = require('extract-text-webpack-plugin');
 const NoErrorsPlugin = webpack.NoErrorsPlugin;
@@ -9,6 +9,7 @@ const DedupePlugin = webpack.optimize.DedupePlugin;
 const UglifyJsPlugin = webpack.optimize.UglifyJsPlugin;
 
 const {SRC} = PATHS;
+const {JS_TEMPLATE, CSS_TEMPLATE} = CONFIG;
 
 const cfg = {
 	watch: false,
@@ -17,7 +18,7 @@ const cfg = {
 	bail: true,
 	devtool: 'source-map',
 	output: {
-		filename: '[name]-[chunkhash].js'
+		filename: JS_TEMPLATE
 	},
 	module: {
 		loaders: [{
@@ -30,7 +31,7 @@ const cfg = {
 		}]
 	},
 	plugins: [
-		new ExtractPlugin('[name]-[contenthash].css'),
+		new ExtractPlugin(CSS_TEMPLATE),
 		new NoErrorsPlugin(),
 		new DedupePlugin(),
 		new UglifyJsPlugin()

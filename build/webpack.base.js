@@ -8,8 +8,9 @@ const HtmlPlugin = require('html-webpack-plugin');
 const CleanPlugin = require('clean-webpack-plugin');
 const {ForkCheckerPlugin} = require('awesome-typescript-loader');
 
-const {PUBLIC_PATH, ASSETS_LIMIT, CLIENT_ENV_VARS} = CONFIG;
 const {ROOT, SRC, DIST, PAGES, TEST} = PATHS;
+const {PUBLIC_PATH, CLIENT_ENV_VARS} = CONFIG;
+const {ASSET_LIMIT_KB, ASSET_TEMPLATE} = CONFIG;
 
 requireEnv(CLIENT_ENV_VARS);
 
@@ -57,7 +58,7 @@ const cfg = {
 			exclude: [PAGES]
 		}, {
 			test: /\.(svg|png|jpg|gif|eot|ttf|woff|woff2)$/,
-			loader: `url?limit=${ASSETS_LIMIT}&name=[name]-[hash].[ext]`
+			loader: `url?limit=${ASSET_LIMIT_KB * 1024}&name=${ASSET_TEMPLATE}`
 		}]
 	},
 	postcss: [
