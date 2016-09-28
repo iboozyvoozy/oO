@@ -60,7 +60,7 @@
     "jade-html-loader": "0.0.3",
     "json-loader": "0.5.4",
     "lodash": "4.16.2",
-    "ng-annotate-loader": "0.1.1",
+    "ng-annotate-loader": "0.2.0",
     "ng-cache-loader": "0.0.21",
     "npm-run-all": "3.1.0",
     "postcss-loader": "0.13.0",
