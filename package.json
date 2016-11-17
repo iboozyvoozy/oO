@@ -67,7 +67,7 @@
     "pug": "2.0.0-beta4",
     "pug-loader": "2.3.0",
     "require-environment-variables": "1.1.2",
-    "semantic-release": "4.3.5",
+    "semantic-release": "6.3.2",
     "style-loader": "0.13.1",
     "stylint": "1.5.7",
     "stylint-loader": "1.0.0",
