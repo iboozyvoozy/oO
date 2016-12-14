@@ -45,7 +45,7 @@
     "compression": "1.6.2",
     "css-loader": "0.25.0",
     "cz-conventional-changelog": "1.2.0",
-    "debug": "2.3.3",
+    "debug": "2.4.0",
     "dotenv": "2.0.0",
     "eslint": "3.10.2",
     "eslint-loader": "1.6.1",
