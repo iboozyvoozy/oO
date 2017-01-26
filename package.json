@@ -98,7 +98,7 @@
     "karma-jasmine": "1.0.2",
     "karma-mocha-reporter": "2.2.1",
     "karma-phantomjs-launcher": "1.0.2",
-    "karma-webpack": "1.8.0",
+    "karma-webpack": "2.0.2",
     "protractor": "4.0.10"
   },
   "config": {
