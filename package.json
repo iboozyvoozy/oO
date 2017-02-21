@@ -44,7 +44,7 @@
     "commitizen": "2.8.6",
     "compression": "1.6.2",
     "css-loader": "0.25.0",
-    "cz-conventional-changelog": "1.2.0",
+    "cz-conventional-changelog": "2.0.0",
     "debug": "2.5.2",
     "dotenv": "2.0.0",
     "eslint": "3.10.2",
