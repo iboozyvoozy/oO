@@ -62,7 +62,7 @@
     "lodash": "4.17.3",
     "ng-annotate-loader": "0.2.0",
     "ng-cache-loader": "0.0.21",
-    "npm-run-all": "3.1.2",
+    "npm-run-all": "4.0.2",
     "postcss-loader": "1.1.0",
     "pug": "2.0.0-beta4",
     "pug-loader": "2.3.0",
