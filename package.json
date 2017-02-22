@@ -48,7 +48,7 @@
     "debug": "2.5.2",
     "dotenv": "2.0.0",
     "eslint": "3.10.2",
-    "eslint-loader": "1.6.1",
+    "eslint-loader": "1.6.2",
     "exports-loader": "0.6.3",
     "express": "4.14.0",
     "express-history-api-fallback": "2.0.0",
