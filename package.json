@@ -96,7 +96,7 @@
     "karma-firefox-launcher": "1.0.0",
     "karma-html-reporter": "0.2.7",
     "karma-jasmine": "1.0.2",
-    "karma-mocha-reporter": "2.2.1",
+    "karma-mocha-reporter": "2.2.3",
     "karma-phantomjs-launcher": "1.0.2",
     "karma-webpack": "1.8.0",
     "protractor": "4.0.10"
