@@ -80,7 +80,7 @@
     "url-loader": "0.5.7",
     "webpack": "1.13.3",
     "webpack-merge": "1.0.2",
-    "webpack-validator": "2.2.11"
+    "webpack-validator": "3.0.0"
   },
   "devDependencies": {
     "babel-plugin-__coverage__": "11.0.0",
